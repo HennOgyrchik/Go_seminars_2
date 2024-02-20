@@ -9,12 +9,12 @@ func main() {
 	arr1 := [4]int{1, 2, 3, 4}
 	arr2 := [5]int{5, 6, 7, 8, 9}
 
-	fmt.Println(task1(arr1, arr2))
+	fmt.Println("Задание 1: ", task1(arr1, arr2))
 
 	//Задание 2. Сортировка пузырьком
 	//Отсортируйте массив длиной шесть пузырьком.
 	arr3 := [6]int{5, 1, 3, 6, 83, 19}
-	fmt.Println(bubbleSort(arr3))
+	fmt.Println("Задание 2: ", bubbleSort(arr3))
 }
 
 func task1(arr1 [4]int, arr2 [5]int) [9]int {
